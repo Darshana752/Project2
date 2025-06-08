@@ -28,6 +28,16 @@
   height: 15px;
   color: bisque;
 }
+.btn1{
+  background-color: rgb(3, 218, 21);
+  border: none;
+  color: aliceblue;
+  height: 25px;
+}
+.btn1:hover{
+  background-color: rgb(2, 43, 2);
+}
+
 
 
 

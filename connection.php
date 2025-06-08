@@ -7,6 +7,6 @@ if(mysqli_connect_error()){
     echo "fail";
 }else{
 
-  echo "success connection";
+  echo "";
 }
  ?>
