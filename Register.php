@@ -18,7 +18,7 @@
       if($result){
         echo "success add data";
       }else{
-        echo "insuccess data addded";
+        echo "insuccess data addde";
       }
 
 
