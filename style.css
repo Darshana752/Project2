@@ -3,6 +3,7 @@
   padding: 0px;
   background-color: aqua;
   height: 65px;
+  margin-bottom: 0px;
   
 }
 
@@ -37,6 +38,28 @@
 .btn1:hover{
   background-color: rgb(2, 43, 2);
 }
+
+.mm2{
+  background-color: rgb(210, 235, 235);
+  text-align: center;
+  padding: 15px;
+  font-size: 120%;
+  margin: 0px;
+  height: 500px;
+  margin-bottom: 0px;
+}
+.mm3{
+  background-color: rgb(128, 128, 194);
+  color: antiquewhite;
+  text-align: center;
+  margin-top: 0px;
+  height: 90px;
+  padding: 20px;
+  font-size: 120%;
+}
+
+
+
 
 
 
