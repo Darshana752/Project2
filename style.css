@@ -1,9 +1,10 @@
 .navbar ul{
   list-style-type:none;
-  padding: 0px;
-  background-color: aqua;
+  padding: 7px;
+  background-color: rgb(178, 236, 103);
   height: 65px;
   margin-bottom: 0px;
+  margin-top: 0px;
   
 }
 
@@ -15,19 +16,23 @@
   float: left;
   color: rgb(3, 7, 10);
   font-size: 120%;
+  margin-bottom: 0px;
+  
   
 
 }
 
 .navbar li{
-  background-color: blueviolet;
+  
+  margin-bottom: 0px;
   
  
 }
 .navbar li :hover{
-  background-color: blue;
+  background-color:  rgb(102, 102, 221);;
   height: 15px;
   color: bisque;
+  border-radius: 10px;
 }
 .btn1{
   background-color: rgb(3, 218, 21);
@@ -57,10 +62,22 @@
   padding: 20px;
   font-size: 120%;
 }
+ 
 
 
+    
 
-
+ .text-overlay {
+      position: absolute;
+      bottom: 70px; 
+      left: 100px;
+      color: rgb(241, 249, 4);
+     
+      
+    }
+    
+  
+    
 
 
 
