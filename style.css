@@ -69,16 +69,76 @@
 
  .text-overlay {
       position: absolute;
-      bottom: 70px; 
+      bottom: 30px; 
       left: 100px;
       color: rgb(241, 249, 4);
+    
      
       
     }
     
   
     
+.body2{
+  background-color: rgb(158, 202, 202);
+  padding: 15px;
+  height: 500px;
+  
+}
+
+.card1{
+  background-color: rgb(243, 19, 157);
+  width: 400px;
+  height: 330px;
+  text-align: center;
+ margin: 50px;
+ margin-left: 250px;
+ color: white;
+ border: none;
+border-radius: 155px;
+ padding-top: 20px;
+ 
+}
+
+.card1:hover{
+  font-size: 150%;
+  height: 430px;
+  background-color:  rgb(7, 189, 86);
 
 
+}
+.card2{
+  background-color: rgb(243, 19, 157);
+  width: 400px;
+  height: 330px;
+  text-align: center;
+ margin: 50px;
+ margin-right: 250px;
+ color: white;
+ border: none;
+border-radius: 155px;
+ float: right;
+ padding-top: 20px;
+ 
+ 
+ 
+}
 
+.card2:hover{
+  font-size: 150%;
+  height: 430px;
+  background-color: rgb(7, 189, 86);
+
+
+}
+
+.card1 a{
+  color:antiquewhite;
+  text-decoration: none;
+}
+
+.card2 a{
+  color: antiquewhite;
+  text-decoration: none;
+}
 
