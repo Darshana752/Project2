@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      input{
+        border: none;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar">
+      <ul>
+        <li>
+          <a href="home.html"><b>Home</b></a>
+        </li>
+        <li>
+          <a href="Readersregister.html"><b>Readers Register</b></a>
+        </li>
+        <li>
+          <a
+            href="Librarianregister.html"
+            style="
+              background-color: rgb(102, 102, 221);
+              height: 15px;
+              color: aliceblue;
+              border-radius: 10px;
+            "
+            ><b>Librarian Register</b></a
+          >
+        </li>
+        <li>
+          <a href="about.html"><b>About</b></a>
+        </li>
+      </ul>
+    </nav>
+   <div class="mm2">
+      <form action="Register.php" method="post">
+        <p><b>Only <b style="color: blue;">LIBRARIAN</b> can add their details.</b></p>
+        <p>
+         
+          <b>1.Enter name = </b
+          ><input
+            type="name"
+            name="fname"
+            placeholder="Amal perera"
+            style="margin-left: 35px;"
+          />
+        </p>
+        <p>
+          <b>2.Enter Nic = </b
+          ><input
+            type="nic"
+            name="nic"
+            style="margin-left: 55px;"
+            placeholder=""
+          />
+        </p>
+        <p>
+          <b>3.Enter adress = </b
+          ><input
+            type="address"
+            name="address"
+             style="margin-left: 30px;"
+            placeholder=""
+          />
+        </p>
+        <p>
+          <b>4.Enter Username = </b
+          ><input
+            type="username"
+            name="username"
+             style="margin-left: 2px;"
+            placeholder=""
+          />
+        </p>
+
+        <p>
+          <b>5.Enter pasword = </b
+          ><input
+            type="password"
+            name="password"
+            style="margin-left: 15px;"
+            placeholder="xxxxxxxxxxxxx"
+          />
+          <p><b>your pasword must be least 8 digit and highest 12 digit.</b></p>
+        </p>
+
+        <button type="submit" name="submit" class="btn1">Submit</button>
+      </form>
+    </div>
+    <div class="mm3"><p><b>Contac me = <a href="https://github.com/Darshana752/Project2">github.com/Darshana752</a></b></p></div>
+
+    
+  </body>
+</html>
