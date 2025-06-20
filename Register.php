@@ -16,9 +16,9 @@
       $result = mysqli_query($connection,$query);
 
       if($result){
-        echo "success add data";
+      header ('location:submitsuc.html');
       }else{
-        echo "insuccess data addde";
+       header ('location:subunsuc.html');
       }
 
 
