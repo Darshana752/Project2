@@ -13,7 +13,7 @@ if(isset($_POST['submit'])){
    $stmt->execute();
    $stmt_result= $stmt->get_result();
    if($stmt_result -> num_rows ===1){
-     echo "success";
+    header ('location:addingbook.html');
    }else{
       echo "unsuccess ";
    }

@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .dd1 {
+        text-align: center;
+        background-color: rgb(174, 120, 225);
+        color: antiquewhite;
+        padding: 10px;
+      }
+      .mm1 {
+        background-color: rgb(223, 223, 87);
+        margin-top: 0px;
+        padding-top: 10px;
+        padding-left: 50px;
+        padding-bottom: 50px;
+        font-size: 200%;
+      }
+      input {
+        border: none;
+        border-radius: 5px;
+      }
+      .btn1 {
+        background-color: rgb(143, 210, 8);
+        height: 50px;
+        color: rgb(32, 18, 217);
+        border: none;
+        border-radius: 5px;
+        margin-left: 200px;
+      }
+      .btn1:hover {
+        background-color: aqua;
+      }
+      .btn2 {
+        background-color: rgb(210, 82, 8);
+        height: 50px;
+        color: rgb(4, 22, 1);
+        border: none;
+        border-radius: 5px;
+        margin-left: 200px;
+        width: 80px;
+      }
+      .btn2:hover {
+        background-color: brown;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="dd1">
+      <h1><b>WELCOME FOR ADDING BOOK.</b></h1>
+      <p><b>Please Enter correct details.</b></p>
+    </div>
+    <div class="mm1">
+      <form action="addingbook.php" method="post" enctype="multipart/form-data">
+        <p>
+          <b>1.Enter book name=</b
+          ><input
+            type="bname"
+            name="bname"
+            style="width: 500px; margin-left: 200px"
+          />
+        </p>
+        <p>
+          <b>2.Select book catagarie=</b
+          ><select
+            name="bcatagarie"
+            id=""
+            style="margin-left: 150px; border: none"
+          >
+            <option>Romantic</option>
+            <option>Novel</option>
+            <option>Short story</option>
+            <option>Historical</option>
+            <option>other</option>
+          </select>
+        </p>
+        <p>
+          <b>3.Enter writer name=</b
+          ><input
+            type="wname"
+            name="wname"
+            style="width: 500px; margin-left: 185px"
+          />
+        </p>
+        <p>
+          <b>4.Enter Language=</b
+          ><input
+            type="language"
+            name="language"
+            style="width: 500px; margin-left: 220px"
+          />
+        </p>
+        <p>
+          <b>5.Discription=</b
+          ><input
+            type="discription"
+            name="discription"
+            placeholder="you can enter any details about this book. "
+            style="width: 500px; height: 50px; margin-left: 285px"
+          />
+        </p>
+        <p>
+          <b>6.Select pdf file:</b>
+          <input
+            type="file"
+            name="pdf_file"
+            style="margin-left: 260px"
+            accept="application/pdf"
+            required
+          />
+        </p>
+
+        <p>
+          <button type="submit" name="submit" class="btn1">
+            <b>ADD BOOK</b>
+          </button>
+        </p>
+      </form>
+      <a href="home.html"
+        ><button class="btn2"><b>BACK</b></button></a
+      >
+    </div>
+  </body>
+</html>
