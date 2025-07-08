@@ -8,7 +8,7 @@ if(isset($_POST['submit'])){
    $password = mysqli_real_escape_string($connection,$_POST['password']);
 
 
-   $stmt = $connection -> prepare("SELECT * FROM details WHERE username=? AND lpassword=? LIMIT 1");
+   $stmt = $connection -> prepare("SELECT * FROM details WHERE username=? AND spassword=? LIMIT 1");
    $stmt -> bind_param("ss", $username,$password);
    $stmt->execute();
    $stmt_result= $stmt->get_result();
