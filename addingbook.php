@@ -18,9 +18,9 @@ if (isset($_POST['submit']) && isset($_FILES['pdf_file']) ){
     $stmt->bind_param("ssssssss",$bname,$catagarie,$writer,$language,$discription,$filename,$filetype,$filedata);
 
    if($stmt->execute()){
-    echo "sucess add book";
+    header('location:submitsuc.html');
    }else{
-    echo "unsuccess";
+    header('location:subunsuc.html');
    }
 
 
