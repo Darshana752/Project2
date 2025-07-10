@@ -8,12 +8,12 @@ if(isset($_POST['submit'])){
    $password = mysqli_real_escape_string($connection,$_POST['password']);
 
 
-   $stmt = $connection -> prepare("SELECT * FROM details WHERE username=? AND spassword=? UNION SELECT * FROM LIBRARIAN WHERE username=? AND lpassword=? LIMIT 1");
-   $stmt -> bind_param("ssss", $username,$password,$username,$password);
+   $stmt = $connection -> prepare("SELECT * FROM librarian WHERE username=? AND lpassword=? LIMIT 1");
+   $stmt -> bind_param("ss", $username,$password);
    $stmt->execute();
    $stmt_result= $stmt->get_result();
    if($stmt_result -> num_rows ===1){
-     header('location:downloadbook.php');
+    header ('location:updatereader.php');
    }else{
       echo "unsuccess ";
    }
@@ -24,7 +24,3 @@ if(isset($_POST['submit'])){
 
 }
 
-
-
-
-?>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .mm1 {
+        margin-top: 250px;
+        margin-left: 250px;
+        margin-right: 250px;
+        background-color: rgb(205, 196, 184);
+        padding: 10px;
+        text-align: center;
+      }
+      input {
+        border: none;
+      }
+      body {
+      }
+      .btn1 {
+        background-color: rgb(28, 165, 234);
+        color: aliceblue;
+        border: none;
+        height: 50px;
+        width: 100px;
+        font-size: 120%;
+      }
+
+      .btn1:hover {
+        background-color: blue;
+      }
+      .btn2 {
+        background-color: rgb(235, 52, 2);
+        color: aliceblue;
+        border: none;
+        height: 50px;
+        width: 100px;
+        font-size: 120%;
+      }
+      .btn2:hover {
+        background-color: rgb(255, 13, 0);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="mm1">
+      <form action="readerupdate.php" method="post">
+        <h1>Enter your correct details for Update Reader Details.</h1>
+
+        <p><b>Enter username=</b> <input type="username" name="username" /></p>
+        <p><b>Enter password=</b> <input type="password" name="password" /></p>
+        <button type="submit" name="submit" class="btn1"><b>LOGIN</b></button>
+        <p><b>Only librarian can log hear.</b></p>
+      </form>
+      <a href="home.html"
+        ><button class="btn2"><b>BACK</b></button></a
+      >
+    </div>
+  </body>
+</html>
